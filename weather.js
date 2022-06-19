@@ -1,11 +1,13 @@
 function init() {
     let spn = document.querySelector("#userLocation");
-    let location = localStorage.getItem('location');
+    let city = localStorage.getItem('city');
+    let state = localStorage.getItem('state');
+
 
     if(spn)
     {
-        console.log(location);
-        spn.innerHTML = location;
+       
+        spn.innerHTML = city + ", " + state;
     }
 }
 
