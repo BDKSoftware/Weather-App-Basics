@@ -5,10 +5,10 @@ function init() {
     // Add event Listener for CLick
     btn.addEventListener('click', () => {
         let city = document.getElementById("input1").value;
-        let state = document.getElementById("input2").value;
+        let zip = document.getElementById("input2").value;
 
         // Checks if Location value is false/null/blank
-        if(!city || !state)
+        if(!city || !zip)
         {
             alert("Both city and state must be filled out");
             return;
@@ -19,7 +19,7 @@ function init() {
         if(btn) {
             console.log(city);
             localStorage.setItem('city', city);
-            localStorage.setItem('state', state);
+            localStorage.setItem('zip', zip);
             window.document.location = './weather.html';
             return;
         }

@@ -28,9 +28,10 @@ form {
 }
 
 form label {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5%;
     color: white;
+    margin-right: 5%;
 }
 
 form input {
