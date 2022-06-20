@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url(./Assets/Weather1.jpg);
+    background-image: url(./Assets/Weather2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -64,6 +64,8 @@ form button {
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 
 
